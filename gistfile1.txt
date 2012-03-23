@@ -8,6 +8,9 @@ chmod a+x git-install.sh
 # exit root
 exit
 
+# relogin xubuntu-session
+
+
 # change shell to zsh
 chsh -s /usr/bin/zsh
 
