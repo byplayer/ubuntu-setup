@@ -9,4 +9,6 @@ chmod a+x git-install.sh
 exit
 
 # change shell to zsh
+chsh -s /usr/bin/zsh
 
+export PATH=/usr/local/git/bin:$PATH
