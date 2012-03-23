@@ -1,2 +1,5 @@
-aptitude intall xubuntu-desktop
+aptitude intall xubuntu-desktop zsh
 
+wget https://raw.github.com/byplayer/docs/master/git/git-install.sh
+chmod a+x git-install.sh
+./git-install.sh
