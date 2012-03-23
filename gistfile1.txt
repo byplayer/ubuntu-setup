@@ -1,5 +1,12 @@
+sudo su root
 aptitude intall xubuntu-desktop zsh
 
 wget https://raw.github.com/byplayer/docs/master/git/git-install.sh
 chmod a+x git-install.sh
 ./git-install.sh
+
+# exit root
+exit
+
+# change shell to zsh
+
