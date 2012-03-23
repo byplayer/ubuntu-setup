@@ -1,1 +1,2 @@
 aptitude intall xubuntu-desktop
+
