@@ -17,5 +17,5 @@ chsh -s /usr/bin/zsh
 export PATH=/usr/local/git/bin:$PATH
 cd ~/
 git clone https://byplayer@github.com/byplayer/dot.zsh.d.git .zsh.d
-
+cp .zsh.d/example.zshrc .zshrc
 
