@@ -29,3 +29,4 @@ cp dotfiles/ubuntu/.tmux.conf ~/
 mkdir -p ~/.config/Terminal
 cp dotfiles/ubuntu/.config/Terminal/terminalrc ~/.config/Terminal/
 
+# reopen terminal
