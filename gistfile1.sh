@@ -46,3 +46,6 @@ sudo make install
 bash -s stable < <(curl -s https://raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-installer)
 
 # restart shell
+rvm install ruby 1.9.3
+rvm install ruby 1.9.2
+rvm install ruby 1.8.7
