@@ -50,3 +50,8 @@ unset GREP_OPTIONS
 rvm install ruby 1.9.3
 rvm install ruby 1.9.2
 rvm install ruby 1.8.7
+
+# TODO
+#   global
+#   emacs
+#   ssh key gen
