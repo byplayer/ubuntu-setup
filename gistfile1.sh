@@ -1,6 +1,6 @@
 sudo su root
 aptitude install xubuntu-desktop zsh autotools-dev automake libtool \
-  libevent-dev libncurses5-dev
+  libevent-dev libncurses5-dev zlib1g-dev libbz2-dev \
 
 wget https://raw.github.com/byplayer/docs/master/git/git-install.sh
 chmod a+x git-install.sh
@@ -39,4 +39,3 @@ cd tmux/trunk
 ./configure --prefix=/usr/local/tmux 
 make
 sudo make install
-
