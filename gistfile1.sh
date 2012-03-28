@@ -51,7 +51,9 @@ rvm install ruby 1.9.3
 rvm install ruby 1.9.2
 rvm install ruby 1.8.7
 
+# ssh key
+ssh-keygen -t rsa -C ${USER}@`hostname`
+
 # TODO
 #   global
 #   emacs
-#   ssh key gen
