@@ -1,5 +1,6 @@
 sudo su root
-aptitude intall xubuntu-desktop zsh
+aptitude install xubuntu-desktop zsh autotools-dev automake libtool \
+  libevent-dev libncurses5-dev
 
 wget https://raw.github.com/byplayer/docs/master/git/git-install.sh
 chmod a+x git-install.sh
@@ -30,3 +31,12 @@ mkdir -p ~/.config/Terminal
 cp dotfiles/ubuntu/.config/Terminal/terminalrc ~/.config/Terminal/
 
 # reopen terminal
+cd ~/projects/
+g clone https://byplayer@github.com/byplayer/tmux.git
+
+cd tmux/trunk
+./autogen.sh 
+./configure --prefix=/usr/local/tmux 
+make
+sudo make install
+
