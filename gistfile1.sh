@@ -1,7 +1,7 @@
 sudo su root
 aptitude install xubuntu-desktop zsh autotools-dev automake libtool \
   libevent-dev libncurses5-dev zlib1g-dev libbz2-dev libyaml-dev \
-  libxml2-dev libxslt1-dev libreadline-dev xsel patch　\
+  libxml2-dev libxslt1-dev libreadline-dev xsel patch \
   chromium-browser
 
 wget https://raw.github.com/byplayer/docs/master/git/git-install.sh
