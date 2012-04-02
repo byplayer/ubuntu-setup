@@ -56,6 +56,10 @@ rvm install ruby 1.8.7
 # ssh key
 ssh-keygen -t rsa -C ${USER}@`hostname`
 
+# use mozc via i-bus
+# change Input Method Switcher in Setting
+# start Keyboard Input Method in Setting menu
+
 # TODO
 #   global
 #   emacs
