@@ -14,6 +14,9 @@ chmod a+x git-install.sh
 # exit root
 exit
 
+# config git
+# https://github.com/byplayer/docs/blob/master/git/git_config.txt
+
 # relogin xubuntu-session
 
 
