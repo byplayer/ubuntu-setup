@@ -5,7 +5,7 @@ aptitude install xubuntu-desktop zsh autotools-dev automake libtool \
   chromium-browser \
   ibus-mozc mozc-server mozc-utils-gui \
   exuberant-ctags \
-  emacs23-common emacsen-common
+  emacs23-common emacsen-common xfonts-shinonome
 
 wget https://raw.github.com/byplayer/docs/master/git/git-install.sh
 chmod a+x git-install.sh
