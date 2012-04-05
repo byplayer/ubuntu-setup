@@ -3,7 +3,8 @@ aptitude install xubuntu-desktop zsh autotools-dev automake libtool \
   libevent-dev libncurses5-dev zlib1g-dev libbz2-dev libyaml-dev \
   libxml2-dev libxslt1-dev libreadline-dev xsel patch \
   chromium-browser \
-  ibus-mozc mozc-server mozc-utils-gui
+  ibus-mozc mozc-server mozc-utils-gui \
+  exuberant-ctags
 
 wget https://raw.github.com/byplayer/docs/master/git/git-install.sh
 chmod a+x git-install.sh
