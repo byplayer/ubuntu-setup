@@ -72,5 +72,7 @@ git clone https://byplayer@github.com/byplayer/dot.emacs.d.git .emacs.d
 
 cd .emacs.d
 g sm init
+cd elisp/rinari
+g sm init
 
 g co -b local
