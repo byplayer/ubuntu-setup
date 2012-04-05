@@ -75,5 +75,5 @@ g sm init
 cd elisp/rinari
 g sm init
 
-cd cd ~/.emacs.d
+cd ~/.emacs.d
 g co -b local
