@@ -4,7 +4,8 @@ aptitude install xubuntu-desktop zsh autotools-dev automake libtool \
   libxml2-dev libxslt1-dev libreadline-dev xsel patch \
   chromium-browser \
   ibus-mozc mozc-server mozc-utils-gui \
-  exuberant-ctags
+  exuberant-ctags \
+  emacs23-common emacsen-common
 
 wget https://raw.github.com/byplayer/docs/master/git/git-install.sh
 chmod a+x git-install.sh
