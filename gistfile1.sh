@@ -11,6 +11,7 @@ aptitude install xubuntu-desktop zsh autotools-dev automake libtool \
   exuberant-ctags \
   emacs emacsen-common xfonts-shinonome python-xlib
 
+cd /usr/local/src
 wget https://raw.github.com/byplayer/docs/master/git/git-install.sh
 chmod a+x git-install.sh
 ./git-install.sh
