@@ -54,6 +54,10 @@ make
 sudo make install
 
 # -----------------------------
+# global
+# https://gist.github.com/1874186
+
+# -----------------------------
 # ruby
 bash -s stable < <(curl -s https://raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-installer)
 
