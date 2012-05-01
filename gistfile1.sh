@@ -48,8 +48,8 @@ cp dotfiles/ubuntu/.config/Terminal/terminalrc ~/.config/Terminal/
 cd ~/projects/
 g clone https://byplayer@github.com/byplayer/tmux.git
 
-cd tmux/trunk
-./autogen.sh 
+cd tmux/tags/TMUX_1_6
+sh ./autogen.sh 
 ./configure --prefix=/usr/local/tmux 
 make
 sudo make install
