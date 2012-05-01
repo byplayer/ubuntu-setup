@@ -9,7 +9,8 @@ aptitude install xubuntu-desktop zsh autotools-dev automake libtool \
   chromium-browser \
   ibus-mozc mozc-server mozc-utils-gui \
   exuberant-ctags \
-  emacs emacsen-common xfonts-shinonome python-xlib
+  emacs emacsen-common xfonts-shinonome python-xlib \
+  libterm-readkey-perl
 
 cd /usr/local/src
 wget https://raw.github.com/byplayer/docs/master/git/git-install.sh
