@@ -40,6 +40,7 @@ git clone https://byplayer@github.com/byplayer/dotfiles.git
 
 cp dotfiles/ubuntu/.dir_colors ~/
 cp dotfiles/ubuntu/.globalrc ~/
+cp dotfiles/ubuntu/.ctags ~/
 cp dotfiles/ubuntu/.tmux.conf ~/
 mkdir -p ~/.config/Terminal
 cp dotfiles/ubuntu/.config/Terminal/terminalrc ~/.config/Terminal/
