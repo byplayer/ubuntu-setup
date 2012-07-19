@@ -90,3 +90,5 @@ g sm update
 
 cd ~/.emacs.d
 g co -b local
+
+emacs --batch --eval '(byte-compile-file "~/.emacs.d/elisp/js2/js2.el")'
