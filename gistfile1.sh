@@ -12,6 +12,9 @@ aptitude install xubuntu-desktop zsh autotools-dev automake libtool \
   emacs emacsen-common xfonts-shinonome python-xlib \
   libterm-readkey-perl
 
+# for dotcloud
+aptitude install postgresql libpq-dev
+
 cd /usr/local/src
 wget https://raw.github.com/byplayer/docs/master/git/git-install.sh
 chmod a+x git-install.sh
