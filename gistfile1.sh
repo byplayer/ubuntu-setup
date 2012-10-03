@@ -108,4 +108,9 @@ mv updatedb.conf updatedb.conf.`date '+%Y%m%d%H%M%S'`
 wget https://raw.github.com/byplayer/dotfiles/master/ubuntu/updatedb.conf
 
 # run update db hourly
-mv /etc/cron.daily/mlocate /etc/cron.hourly/
+cd /usr/local/src
+wget https://raw.github.com/byplayer/dotfiles/master/ubuntu/crontab.root
+crontab -l > crontab.root.old
+crontab crontab.root
+crontab -l > crontab.root.new
+diff crontab.root.old crontab.root.new
