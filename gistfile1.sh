@@ -10,7 +10,8 @@ aptitude install xubuntu-desktop zsh autotools-dev automake libtool \
   ibus-mozc mozc-server mozc-utils-gui \
   exuberant-ctags \
   emacs emacsen-common xfonts-shinonome python-xlib \
-  libterm-readkey-perl
+  libterm-readkey-perl \
+  mlocate
 
 cd /usr/local/src
 wget https://raw.github.com/byplayer/docs/master/git/git-install.sh
@@ -99,3 +100,12 @@ emacs --batch --eval '(byte-compile-file "~/.emacs.d/elisp/js2/js2.el")'
 aptitude install postgresql libpq-dev python-setuptools
 
 sudo easy_install pip && sudo pip install dotcloud
+
+# mlocate
+sudo su root
+cd /etc
+mv updatedb.conf updatedb.conf.`date '+%Y%m%d%H%M%S'`
+wget https://raw.github.com/byplayer/dotfiles/master/ubuntu/updatedb.conf
+
+# run update db hourly
+mv /etc/cron.daily/mlocate /etc/cron.hourly/
