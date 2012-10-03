@@ -107,7 +107,7 @@ cd /etc
 mv updatedb.conf updatedb.conf.`date '+%Y%m%d%H%M%S'`
 wget https://raw.github.com/byplayer/dotfiles/master/ubuntu/updatedb.conf
 
-# run update db hourly
+# run updatedb hourly
 cd /usr/local/src
 wget https://raw.github.com/byplayer/dotfiles/master/ubuntu/crontab.root
 crontab -l > crontab.root.old
