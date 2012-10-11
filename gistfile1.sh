@@ -93,7 +93,9 @@ g sm update
 cd ~/.emacs.d
 g co -b local
 
-emacs --batch --eval '(byte-compile-file "~/.emacs.d/elisp/js2/js2.el")'
+pushd elisp/js2-mode
+emacs --batch -f batch-byte-compile js2-mode.el
+popd
 
 
 # for dotcloud
