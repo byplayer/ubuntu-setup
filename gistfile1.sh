@@ -97,12 +97,6 @@ pushd elisp/js2-mode
 emacs --batch -f batch-byte-compile js2-mode.el
 popd
 
-
-# for dotcloud
-aptitude install postgresql libpq-dev python-setuptools
-
-sudo easy_install pip && sudo pip install dotcloud
-
 # mlocate
 sudo su root
 cd /etc
