@@ -11,7 +11,7 @@ aptitude install xubuntu-desktop zsh autotools-dev automake libtool \
   exuberant-ctags \
   emacs emacsen-common xfonts-shinonome python-xlib \
   libterm-readkey-perl \
-  mlocate
+  mlocate ssh
 
 cd /usr/local/src
 wget https://raw.github.com/byplayer/docs/master/git/git-install.sh
@@ -110,3 +110,6 @@ crontab -l > crontab.root.old
 crontab crontab.root
 crontab -l > crontab.root.new
 diff crontab.root.old crontab.root.new
+
+# for typo
+sudo aptitude install python-feedvalidator
