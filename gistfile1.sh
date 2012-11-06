@@ -11,7 +11,8 @@ aptitude install xubuntu-desktop zsh autotools-dev automake libtool \
   exuberant-ctags \
   emacs emacsen-common xfonts-shinonome python-xlib \
   libterm-readkey-perl \
-  mlocate ssh
+  mlocate ssh \
+  libsqlite3-dev sqlite3 
 
 cd /usr/local/src
 wget https://raw.github.com/byplayer/docs/master/git/git-install.sh
