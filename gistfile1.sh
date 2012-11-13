@@ -59,7 +59,10 @@ sudo make install
 
 # -----------------------------
 # global
-# https://gist.github.com/1874186
+sudo su root
+cd /usr/local/src
+wget https://raw.github.com/gist/1874186/54186f5ca197ec06125fbcf993c33392347ac2b2/global -O install_global.sh
+sh ./install_global.sh
 
 # -----------------------------
 # ruby
