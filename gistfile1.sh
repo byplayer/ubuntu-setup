@@ -118,3 +118,10 @@ diff crontab.root.old crontab.root.new
 
 # for typo
 sudo aptitude install python-feedvalidator
+
+# sublimetext
+sudo su root
+cd /usr/local/src
+wget wget http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.1%20x64.tar.bz2
+tar xjf Sublime\ Text\ 2.0.1\ x64.tar.bz2
+mv Sublime\ Text\ 2 /usr/local/SublimeText
