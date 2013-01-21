@@ -13,7 +13,7 @@ aptitude install xubuntu-desktop zsh autotools-dev automake libtool \
   libterm-readkey-perl \
   mlocate ssh \
   libsqlite3-dev sqlite3 \
-  expect
+  expect dkms
 
 cd /usr/local/src
 wget https://raw.github.com/byplayer/docs/master/git/git-install.sh
