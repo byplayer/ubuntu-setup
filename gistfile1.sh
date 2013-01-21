@@ -88,12 +88,7 @@ cd ~/
 git clone https://byplayer@github.com/byplayer/dot.emacs.d.git .emacs.d
 
 cd .emacs.d
-g sm init
-g sm update
-
-cd elisp/rinari
-g sm init
-g sm update
+g sm update --init --recursive
 
 cd ~/.emacs.d
 g co -b local
