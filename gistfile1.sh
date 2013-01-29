@@ -23,9 +23,6 @@ chmod a+x git-install.sh
 # exit root
 exit
 
-# config git
-# https://github.com/byplayer/docs/blob/master/git/git_config.txt
-
 # relogin xubuntu-session
 
 
@@ -33,6 +30,10 @@ exit
 chsh -s /usr/bin/zsh
 
 export PATH=/usr/local/git/bin:$PATH
+
+# config git
+# https://github.com/byplayer/docs/blob/master/git/git_config.txt
+
 cd ~/
 git clone https://byplayer@github.com/byplayer/dot.zsh.d.git .zsh.d
 cp .zsh.d/example.zshrc .zshrc
