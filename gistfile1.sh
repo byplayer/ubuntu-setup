@@ -111,6 +111,9 @@ crontab crontab.root
 crontab -l > crontab.root.new
 diff crontab.root.old crontab.root.new
 
+# for DTrace
+sudo aptitude install systemtap-sdt-dev
+
 # for typo
 sudo aptitude install python-feedvalidator
 
