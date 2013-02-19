@@ -121,3 +121,9 @@ cd /usr/local/src
 wget http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.1%20x64.tar.bz2
 tar xjf Sublime\ Text\ 2.0.1\ x64.tar.bz2
 mv Sublime\ Text\ 2 /usr/local/SublimeText
+
+# node
+sudo apt-get install python-software-properties
+sudo add-apt-repository ppa:chris-lea/node.js
+sudo apt-get update
+sudo apt-get install nodejs npm nodejs-dev
