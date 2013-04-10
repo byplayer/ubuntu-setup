@@ -130,3 +130,6 @@ sudo apt-key adv --recv-key --keyserver keyserver.ubuntu.com B9316A7BC7917B12
 
 sudo apt-get update
 sudo apt-get install nodejs npm nodejs-dev
+
+# stop blanking
+# xset -dpms s off s noblank s 0 0 s noexpose
