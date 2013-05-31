@@ -54,7 +54,7 @@ cp dotfiles/ubuntu/.config/Terminal/terminalrc ~/.config/Terminal/
 cd ~/projects/
 g clone https://byplayer@github.com/byplayer/tmux.git
 
-cd tmux/tags/TMUX_1_6
+cd tmux
 sh ./autogen.sh 
 ./configure --prefix=/usr/local/tmux 
 make
