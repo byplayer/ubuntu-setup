@@ -73,6 +73,7 @@ bash -s stable < <(curl -s https://raw.github.com/wayneeseguin/rvm/master/binscr
 
 # restart shell
 unset GREP_OPTIONS
+rvm install ruby 2.0.0
 rvm install ruby 1.9.3
 rvm install ruby 1.9.2
 rvm install ruby 1.8.7
