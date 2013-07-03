@@ -4,8 +4,10 @@ sudo su root
 
 apt-get update
 apt-get upgrade
+
 # restart
 
+sudo su root
 apt-get install aptitude
 
 aptitude install lubuntu-desktop zsh autotools-dev automake libtool \
@@ -23,6 +25,7 @@ aptitude install lubuntu-desktop zsh autotools-dev automake libtool \
 
 # restart
 
+sudo su root
 cd /usr/local/src
 wget https://raw.github.com/byplayer/docs/master/git/git-install.sh
 chmod a+x git-install.sh
@@ -44,9 +47,12 @@ export PATH=/usr/local/git/bin:$PATH
 
 cd ~/
 git clone https://byplayer@github.com/byplayer/dot.zsh.d.git .zsh.d
+cd ~/.zsh.d
+git sm update --init --recursive
+
 cp .zsh.d/example.zshrc .zshrc
 
-mkdir ~/projects/
+mkdir -p ~/projects/
 cd ~/projects/
 git clone https://byplayer@github.com/byplayer/dotfiles.git
 
@@ -54,16 +60,20 @@ cp dotfiles/ubuntu/.dir_colors ~/
 cp dotfiles/ubuntu/.globalrc ~/
 cp dotfiles/ubuntu/.ctags ~/
 cp dotfiles/ubuntu/.tmux.conf ~/
-mkdir -p ~/.config/Terminal
-cp dotfiles/ubuntu/.config/Terminal/terminalrc ~/.config/Terminal/
+
+# mkdir -p ~/.config/Terminal
+# cp dotfiles/ubuntu/.config/Terminal/terminalrc ~/.config/Terminal/
+
+# TODO
+# .gconf
 
 # reopen terminal
 cd ~/projects/
 g clone https://byplayer@github.com/byplayer/tmux.git
 
 cd tmux
-sh ./autogen.sh 
-./configure --prefix=/usr/local/tmux 
+sh ./autogen.sh
+./configure --prefix=/usr/local/tmux
 make
 sudo make install
 
@@ -84,10 +94,6 @@ rvm install ruby 2.0.0
 rvm install ruby 1.9.3
 rvm install ruby 1.9.2
 rvm install ruby 1.8.7
-
-# ssh key
-ssh-keygen -t rsa -C ${USER}@`hostname`
-
 
 # use mozc via i-bus
 # change Input Method Switcher in Setting
@@ -121,15 +127,14 @@ crontab crontab.root
 crontab -l > crontab.root.new
 diff crontab.root.old crontab.root.new
 
-# for typo
-sudo aptitude install python-feedvalidator
-
 # sublimetext
 sudo su root
-cd /usr/local/src
-wget http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.1%20x64.tar.bz2
-tar xjf Sublime\ Text\ 2.0.1\ x64.tar.bz2
-mv Sublime\ Text\ 2 /usr/local/SublimeText
+add-apt-repository ppa:webupd8team/sublime-text-2
+aptitude update
+aptitude install sublime-text
+
+# open sublime text is following command
+# subl
 
 # node
 sudo apt-get install python-software-properties
