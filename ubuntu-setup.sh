@@ -47,6 +47,7 @@ cp dotfiles/ubuntu/.dir_colors ~/
 cp dotfiles/ubuntu/.globalrc ~/
 cp dotfiles/ubuntu/.ctags ~/
 cp dotfiles/ubuntu/.tmux.conf ~/
+cp dotfiles/ubuntu/.xprofile ~/
 mkdir -p ~/.config/Terminal
 cp dotfiles/ubuntu/.config/Terminal/terminalrc ~/.config/Terminal/
 
