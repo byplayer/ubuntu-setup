@@ -1,9 +1,14 @@
-# for ubuntu 11.10
+# for ubuntu 13.04
 
 sudo su root
+
+apt-get update
+apt-get upgrade
+# restart
+
 apt-get install aptitude
 
-aptitude install xubuntu-desktop zsh autotools-dev automake libtool \
+aptitude install lubuntu-desktop zsh autotools-dev automake libtool \
   libevent-dev libncurses5-dev zlib1g-dev libbz2-dev libyaml-dev \
   libxml2-dev libxslt1-dev libreadline-dev xsel patch \
   chromium-browser \
@@ -15,6 +20,8 @@ aptitude install xubuntu-desktop zsh autotools-dev automake libtool \
   libsqlite3-dev sqlite3 \
   expect dkms \
   ia32-libs ack-grep
+
+# restart
 
 cd /usr/local/src
 wget https://raw.github.com/byplayer/docs/master/git/git-install.sh
