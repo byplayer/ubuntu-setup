@@ -1,0 +1,7 @@
+mozc
+  ibus
+  emacs
+
+sync terminal configuration
+
+desktop pager 2row
