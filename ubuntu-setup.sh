@@ -80,6 +80,7 @@ rvm install ruby 1.8.7
 
 # ssh key
 ssh-keygen -t rsa -C ${USER}@`hostname`
+ssh-add
 
 
 # use mozc via i-bus
