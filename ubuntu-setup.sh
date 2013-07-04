@@ -62,7 +62,8 @@ cp dotfiles/ubuntu/.ctags ~/
 cp dotfiles/ubuntu/.tmux.conf ~/
 
 # TODO
-# .gconf
+mkdir -p ~/.gconf/apps
+cp -r dotfiles/ubuntu/.gconf/apps/gnome-terminal ~/.gconf/apps/
 
 cp dotfiles/ubuntu/.xprofile ~/
 
