@@ -61,11 +61,13 @@ cp dotfiles/ubuntu/.globalrc ~/
 cp dotfiles/ubuntu/.ctags ~/
 cp dotfiles/ubuntu/.tmux.conf ~/
 
-# mkdir -p ~/.config/Terminal
-# cp dotfiles/ubuntu/.config/Terminal/terminalrc ~/.config/Terminal/
-
 # TODO
 # .gconf
+
+cp dotfiles/ubuntu/.xprofile ~/
+
+# mkdir -p ~/.config/Terminal
+# cp dotfiles/ubuntu/.config/Terminal/terminalrc ~/.config/Terminal/
 
 # reopen terminal
 cd ~/projects/
@@ -94,6 +96,10 @@ rvm install ruby 2.0.0
 rvm install ruby 1.9.3
 rvm install ruby 1.9.2
 rvm install ruby 1.8.7
+
+# ssh key
+ssh-keygen -t rsa -C ${USER}@`hostname`
+ssh-add
 
 # use mozc via i-bus
 # change Input Method Switcher in Setting
