@@ -91,6 +91,8 @@ sh ./install_global.sh
 # ruby
 git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
 git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+git clone git://github.com/jf/rbenv-gemset.git ~/.rbenv/plugins/rbenv-gemset
+
 
 rbenv install 2.0.0-p247
 
