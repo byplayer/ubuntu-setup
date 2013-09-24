@@ -89,14 +89,11 @@ sh ./install_global.sh
 
 # -----------------------------
 # ruby
-bash -s stable < <(curl -s https://raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-installer)
+git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
+git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
 
-# restart shell
-unset GREP_OPTIONS
-rvm install ruby 2.0.0
-rvm install ruby 1.9.3
-rvm install ruby 1.9.2
-rvm install ruby 1.8.7
+rbenv install 2.0.0-p247
+
 
 # ssh key
 ssh-keygen -t rsa -C ${USER}@`hostname`
