@@ -10,6 +10,11 @@ apt-get upgrade
 sudo su root
 apt-get install aptitude
 
+# for 13.04
+# sudo add-apt-repository ppa:cassou/emacs
+# sudo apt-get update
+# sudo apt-get install emacs24
+
 aptitude install lubuntu-desktop zsh autotools-dev automake libtool \
   libevent-dev libncurses5-dev zlib1g-dev libbz2-dev libyaml-dev \
   libxml2-dev libxslt1-dev libreadline-dev xsel patch \
