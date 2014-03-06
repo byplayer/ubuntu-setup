@@ -21,7 +21,7 @@ aptitude install lubuntu-desktop zsh autotools-dev automake libtool \
   chromium-browser \
   ibus-mozc mozc-server mozc-utils-gui \
   exuberant-ctags \
-  emacs24 emacsen-common xfonts-shinonome python-xlib \
+  emacs24 emacsen-common ibus-el xfonts-shinonome python-xlib \
   libterm-readkey-perl \
   mlocate ssh \
   libsqlite3-dev sqlite3 \
