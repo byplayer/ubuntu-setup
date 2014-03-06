@@ -65,6 +65,7 @@ cp dotfiles/ubuntu/.dir_colors ~/
 cp dotfiles/ubuntu/.globalrc ~/
 cp dotfiles/ubuntu/.ctags ~/
 cp dotfiles/ubuntu/.tmux.conf ~/
+cp dotfiles/ubuntu/.Xresources ~/
 
 # TODO
 mkdir -p ~/.gconf/apps
