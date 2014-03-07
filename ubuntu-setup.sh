@@ -28,7 +28,7 @@ aptitude install lubuntu-desktop zsh autotools-dev automake libtool \
   mlocate ssh \
   libsqlite3-dev sqlite3 \
   expect dkms \
-  ia32-libs ack-grep \
+  ia32-libs \
   silversearcher-ag
 
 # restart
