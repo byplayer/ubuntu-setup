@@ -14,6 +14,8 @@ apt-get install aptitude
 # sudo add-apt-repository ppa:cassou/emacs
 # sudo apt-get update
 # sudo apt-get install emacs24
+#
+# sudo apt-add-repository ppa:mizuno-as/silversearcher-ag
 
 aptitude install lubuntu-desktop zsh autotools-dev automake libtool \
   libevent-dev libncurses5-dev zlib1g-dev libbz2-dev libyaml-dev \
@@ -26,7 +28,8 @@ aptitude install lubuntu-desktop zsh autotools-dev automake libtool \
   mlocate ssh \
   libsqlite3-dev sqlite3 \
   expect dkms \
-  ia32-libs ack-grep
+  ia32-libs ack-grep \
+  silversearcher-ag
 
 # restart
 
