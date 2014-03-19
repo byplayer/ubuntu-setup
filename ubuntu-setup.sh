@@ -102,6 +102,7 @@ sh ./install_global.sh
 # rvm install ruby-2.1.0
 
 git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
+git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
 
 # ssh key
 ssh-keygen -t rsa -C ${USER}@`hostname`
