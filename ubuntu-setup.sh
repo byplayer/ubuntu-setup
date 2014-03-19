@@ -103,6 +103,7 @@ sh ./install_global.sh
 
 git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
 git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+git clone https://github.com/jf/rbenv-gemset.git ~/.rbenv/plugins/rbenv-gemset
 
 # ssh key
 ssh-keygen -t rsa -C ${USER}@`hostname`
