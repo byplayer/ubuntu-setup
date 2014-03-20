@@ -98,12 +98,12 @@ sh ./install_global.sh
 
 # -----------------------------
 # ruby
-# curl -sSL https://get.rvm.io | bash -s stable
-# rvm install ruby-2.1.0
+curl -sSL https://get.rvm.io | bash -s stable
+rvm install ruby-2.1.1
 
-git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
-git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
-git clone https://github.com/jf/rbenv-gemset.git ~/.rbenv/plugins/rbenv-gemset
+# git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
+# git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+# git clone https://github.com/jf/rbenv-gemset.git ~/.rbenv/plugins/rbenv-gemset
 
 # ssh key
 ssh-keygen -t rsa -C ${USER}@`hostname`
