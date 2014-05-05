@@ -30,7 +30,8 @@ aptitude install lubuntu-desktop zsh autotools-dev automake libtool \
   libsqlite3-dev sqlite3 \
   expect dkms \
   ia32-libs \
-  silversearcher-ag
+  silversearcher-ag \
+  eblook
 
 # restart
 
