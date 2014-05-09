@@ -101,7 +101,9 @@ sh ./install_global.sh
 # -----------------------------
 # ruby
 curl -sSL https://get.rvm.io | bash -s stable
-rvm install ruby-2.1.1
+
+TARGET_RUBY=ruby-2.1.1
+rvm install ${TARGET_RUBY}
 
 # git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
 # git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
