@@ -12,7 +12,7 @@
 
 
 
-# misc
+# reference
 
 https://github.com/muratayusuke/chef-global
 こんな感じでリポジトリ作って、
@@ -21,3 +21,6 @@ http://community.opscode.com/cookbooks/global
 こんな感じでopscodeに上げとけば、どっからでもBerkshelfでもってこれます
 
 https://github.com/muratayusuke/chef-devenv
+
+how to run shef
+http://hivecolor.com/id/126
