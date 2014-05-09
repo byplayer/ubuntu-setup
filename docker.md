@@ -34,3 +34,11 @@ If you want to run not using sudo
 
     sudo usermod -G docker $USER
 
+
+misc
+=====
+https://github.com/muratayusuke/chef-global
+こんな感じでリポジトリ作って、
+
+http://community.opscode.com/cookbooks/global
+こんな感じでopscodeに上げとけば、どっからでもBerkshelfでもってこれます
