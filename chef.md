@@ -7,6 +7,9 @@ install
     rvm use ${TARGET_RUBY}@chef
 
     rvm-prompt
+
     gem install chef
     gem install knife-solo
+
+
 
