@@ -1,5 +1,4 @@
-install
-====
+# install
 
     TARGET_RUBY=ruby-2.1.1
     rvm use ${TARGET_RUBY}
@@ -13,3 +12,12 @@ install
 
 
 
+# misc
+
+https://github.com/muratayusuke/chef-global
+こんな感じでリポジトリ作って、
+
+http://community.opscode.com/cookbooks/global
+こんな感じでopscodeに上げとけば、どっからでもBerkshelfでもってこれます
+
+https://github.com/muratayusuke/chef-devenv
