@@ -29,7 +29,7 @@ ubuntu 13.04
 
 If you want to run not using sudo
 
-    sudo usermod -G docker $USER
+    sudo gpasswd -a $USER docker
 
 
 # docker command
@@ -112,3 +112,25 @@ ctrl-p ctrl-q
 ## ローカルファイルを指定してインポート(imageに登録される)
 
     cat cent01.tar | docker import - cent01
+
+# set dns server
+
+edit /etc/default/docker as follows
+
+    DOCKER_OPTS="--dns 8.8.8.8"
+
+and stop/start docker daemon
+
+    sudo service docker stop
+    sudo service docker start
+
+restart can't load dns, so you need to use stop/start
+
+# Dockerfile
+
+## build
+
+make Dockerfile
+
+    docker build .
+
