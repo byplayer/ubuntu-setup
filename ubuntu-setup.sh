@@ -31,7 +31,8 @@ aptitude install lubuntu-desktop zsh autotools-dev automake libtool \
   expect dkms \
   ia32-libs \
   silversearcher-ag \
-  eblook lookup-el
+  eblook lookup-el \
+  libgecode-dev
 
 # restart
 
