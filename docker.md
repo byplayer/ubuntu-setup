@@ -132,5 +132,5 @@ restart can't load dns, so you need to use stop/start
 
 make Dockerfile
 
-    docker build .
+    docker build -t youname/tagname .
 
