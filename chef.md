@@ -29,21 +29,29 @@ TODO: check to need to run following command
 # make cook book
 
     cd chef-repo
-    knife cookbook create hello -o cookbooks
+    knife cookbook create [cookbook-name] -o site-cookbooks
 
 
 # berkshelf
 
 make following file Berksfile
 
-     site :opscode
-     cookbook 'yum'
-     cookbook 'nginx'
+
+    source "https://api.berkshelf.com"
+
+    cookbook 'tmux'
 
 install cookbooks
 
-    berks install --path cookbooks
+    berks install
 
+
+# run knife
+
+    knife solo cook ${host} nodes/devenv.json
+
+jsonファイルを指定しない場合は、nodes/${host}.json
+が使われる
 
 # reference
 
