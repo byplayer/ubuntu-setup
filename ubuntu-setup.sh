@@ -22,7 +22,6 @@ aptitude install lubuntu-desktop zsh autotools-dev automake libtool \
   libxml2-dev libxslt1-dev libreadline-dev xclip patch \
   chromium-browser \
   ibus-mozc mozc-server mozc-utils-gui \
-  emacs-mozc emacs-mozc-bin \
   exuberant-ctags \
   emacs24 emacsen-common ibus-el rdtool-elisp emacs-goodies-el \
   xfonts-shinonome python-xlib \
