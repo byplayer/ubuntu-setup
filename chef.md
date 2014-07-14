@@ -45,6 +45,8 @@ install cookbooks
 
     berks install
 
+# prepare
+    knife solo prepare ${host}
 
 # run knife
 
