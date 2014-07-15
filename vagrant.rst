@@ -1,6 +1,7 @@
 install plugin
 ====
-    vagrant plugin install vagrant-omnibus
+    vagrant plugin install vagrant-vbox-snapshot
+    vagrant plugin install vagrant-vbguest
 
 init
 ====
