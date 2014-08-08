@@ -1,6 +1,13 @@
 TODO in chef
 
 # ruby chef gemset
+gem install chef
+gem install berkshelf
+gem install knife-solo
+gem install rubocop
+gem install foodcritic
+
+
 
 # use mozc via i-bus
 # change Input Method Switcher in Setting
