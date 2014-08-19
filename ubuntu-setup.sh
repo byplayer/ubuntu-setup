@@ -7,6 +7,18 @@ gem install knife-solo
 gem install rubocop
 gem install foodcritic
 
+# to fix chef-rvm bug installing user gem
+#              {
+#                  "user": "yukio",
+#                  "default_ruby":"2.1.2",
+#                  "rubies":["2.1.2"],
+#                  "gems":{
+#                      "ruby-2.1.2@chef2":[
+#                          {"name": "nokogiri"}
+#                      ]
+#                  }
+#              }
+
 
 
 # use mozc via i-bus
