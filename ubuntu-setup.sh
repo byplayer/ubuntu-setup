@@ -8,6 +8,8 @@ gem install rubocop
 gem install foodcritic
 
 # to fix chef-rvm bug installing user gem
+# gemset directory owned by root
+# some gem instralling process will timeout
 #              {
 #                  "user": "yukio",
 #                  "default_ruby":"2.1.2",
