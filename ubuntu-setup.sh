@@ -29,12 +29,4 @@ gem install foodcritic
 
 # ag berkshelf merge
 
-# node
-sudo apt-get install python-software-properties
-sudo add-apt-repository ppa:chris-lea/node.js
-sudo apt-key adv --recv-key --keyserver keyserver.ubuntu.com B9316A7BC7917B12
-
-sudo apt-get update
-sudo apt-get install nodejs
-
 # p4merge
