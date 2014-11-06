@@ -7,9 +7,10 @@
 
     rvm-prompt
 
-    gem install chef
-    gem install knife-solo
-    gem install berkshelf
+    gem install chef knife-solo berkshelf
+
+    # for development
+    gem install rubocop foodcritic
 
 
 # init knife
