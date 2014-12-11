@@ -28,5 +28,3 @@ gem install foodcritic
 # start Keyboard Input Method in Setting menu
 
 # ag berkshelf merge
-
-# p4merge
